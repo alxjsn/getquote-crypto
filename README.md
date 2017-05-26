@@ -10,7 +10,7 @@ A script to be used in combination with the `--download` or `-Q` argument for le
 1. pip install requests
 2. sudo cp getquote.py /usr/local/bin/getquote
 3. touch ~/.pricedb
-4. echo '--price-db ~/.pricedb\n--download' >> ~/.pricedb
+4. echo '--price-db ~/.pricedb\n--download' >> ~/.ledgerrc
 
 Now when ledger-cli is run with an argument such as `--market` or `-V` the pricedb will be updated with the latest prices for any symbols used in the ledger file.
 
